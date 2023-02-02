@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "service-component"
+  description: Sample service for Humanitec demo
+  annotations:
+    github.com/project-slug: thefrontside/service-component
+    humanitec.com/orgId: "the-frontside-software-inc"
+    humanitec.com/appId: "service-component"
+spec:
+  type: service
+  owner: john@example.com
+  lifecycle: experimental
