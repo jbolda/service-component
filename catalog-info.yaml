@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: thefrontside/service-component
     humanitec.com/orgId: "the-frontside-software-inc"
     humanitec.com/appId: "service-component"
-    backstage.io/techdocs-ref: ./docs
+    backstage.io/techdocs-ref: file:./docs
 spec:
   type: service
   owner: john@example.com
